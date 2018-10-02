@@ -1,6 +1,7 @@
 import React from 'react';
-import {mount, render, shallow} from 'enzyme'
-import '../setupTest'
+import {mount, render, shallow} from 'enzyme';
+import '../setupTest';
+import { spy } from 'sinon';
 
 import CurrencyApp from './CurrencyApp';
 

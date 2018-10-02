@@ -56,9 +56,7 @@ class CurrencyApp extends Component {
                 dataSource: dataRates
               })
           })
-          .catch((error) => {
-              let err = error
-          })
+          .catch((error) => console.log(error))
      }
 
     componentDidUpdate (prevProps){
