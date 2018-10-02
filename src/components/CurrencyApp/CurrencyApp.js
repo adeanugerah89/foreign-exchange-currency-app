@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import CurrencyListApp from './CurrencyListApp';
+import CurrencyListApp from '../CurrencyListApp/CurrencyListApp';
 import { Button, FormControl } from 'react-bootstrap';
-import '../styles/CurrencyAppCss.css';
-import '../styles/CurrencyListAppCss.css';
+import '../../styles/CurrencyAppCss.css';
+import '../../styles/CurrencyListAppCss.css';
 
 class CurrencyApp extends Component {
     constructor(props) {
@@ -56,7 +56,9 @@ class CurrencyApp extends Component {
                 dataSource: dataRates
               })
           })
-          .catch((error) => console.log(error))
+          .catch((error) => {
+              let err = error
+          })
      }
 
     componentDidUpdate (prevProps){

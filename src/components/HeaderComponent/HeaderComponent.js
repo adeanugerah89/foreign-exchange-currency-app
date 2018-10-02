@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Panel, FormControl, FormGroup, ControlLabel, InputGroup } from 'react-bootstrap';
-import CurrencyApp from './CurrencyApp'
+import CurrencyApp from '../CurrencyApp/CurrencyApp';
 
 class HeaderComponent extends Component {
     constructor(props) {
