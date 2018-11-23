@@ -137,7 +137,7 @@ class CurrencyApp extends Component {
                         <FormControl
                           type="text"
                           value={this.state.addCurrencies}
-                          placeholder="add more currencies"
+                          placeholder="add currencies by Code"
                           onChange={this.handleAddCurrencies}
                         />
                         <Button bsStyle="primary" type="submit">Submit</Button>
